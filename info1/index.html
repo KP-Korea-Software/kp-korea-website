@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="img/ico" href="../nav/nkfavicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/decss.css">
+
+    <script type="text/javascript" src="../hoofdjs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../hoofdjs/jquery.scrollify.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="../hoofdjs/navjs.js" ></script>
+    <script type="text/javascript" src="../hoofdjs/demain.js" ></script>
+    <title>North Korea</title>
+
+  </head>
+  <body>
+    <!-- NAVBAR ..................... -->
+    <!--  -->
+    <div id="navigatie">
+      <img src="../nav/menu.png" alt="WS" onclick="klikBoven()" id ="picBoven">
+      <div id="ding">
+        <ul id="navbar">
+          <li id="id1" class="active" onmouseout="noHover(1)" onmouseover="hoveren(1)"><a class="dingtr" href="../index.html"> <div class="navpic-container"><img src="../nav/home.png" alt="WS" class ="picNav"></div><p class="navp">Home</p></a></li>
+          <li class="1" id="id2" onmouseout="noHover(2)" onmouseover="hoveren(2)"><a class="dingtr" href="index.html"><div class="navpic-container"><img src="../nav/leven.png" alt="WS" class ="picNav"></div><p class="navp">Dagelijks leven</p></a>
+            <ul id="onHover1">
+              <li><a class="anav" href="#first">1. Werkkampen</a></li>
+              <li><a class="anav" href="#hst2_1">2. Weeshuis</a></li>
+              <li><a class="anav" href="#hst3_1">3. Honger nood</a></li>
+            </ul>
+          </li>
+          <li class="1" id="id3" onmouseout="noHover(3)" onmouseover="hoveren(3)"><a class="dingtr" href="../content_page2/index.html"><div class="navpic-container"><img src="../nav/communisme.png" alt="WS" class ="picNav"></div><p class="navp">Communisme</p></a>
+            <ul id="onHover2">
+              <li><a class="anav" href="../content_page2/index.html">1. Geschiedenis</a></li>
+              <li><a class="anav" href="../content_page2/index.html#hst2_1">2. De Grote Leider</a></li>
+              <li><a class="anav" href="../content_page2/index.html#hst3_1">3. Propoganda</a></li>
+            </ul>
+          </li>
+          <li class="1" id="id4" onmouseout="noHover(4)" onmouseover="hoveren(4)"><a class="dingtr" href="../content_page3/index.html"><div class="navpic-container"><img src="../nav/koffer.png" alt="WS" class ="picNav"></div><p class="navp">Tourisme</p></a>
+            <ul id="onHover3">
+              <li><a class="anav" href="../content_page3/index.html">1. Tourist begleiding</a></li>
+              <li><a class="anav" href="../content_page3/index.html#hst2_1">2. Kumgang resort</a></li>
+              <li><a class="anav" href="../content_page3/index.html#hst3_1">3. Strandvakantie</a></li>
+            </ul>
+          </li>
+          <li id="sc">
+            <a id="navsc" onclick="klikSourse()">Source</a>
+            <div id="sourceText">
+              <p id="liter">Nos nieuwsuur Noord<br>Korea documantaire 2015</p>
+                <br>
+              <p id="wiki">Wiki: Noord Korea</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="niks" onclick="terug()"></div>
+    </div>
+
+    <!-- EINDE NAVBAR ............................ -->
+    <!--  -->
+    <section class="section-class-name" id="begin">
+      <div class="title_container">
+        <h1>Dagelijks leven</h1>
+      </div>
+    </section>
+    <section class="section-class-name" id="first">
+
+      <div class="title_container">
+        <h1>Werkkampen</h1>
+      </div>
+    </section>
+
+    <section id="second" class="section-class-name next_screen">
+      <div class="text_container" id="pag1_1">
+        <h3>In Noord Korea is niet te spreken van vrijheid.<br>
+           Iedereen moet zich houden aan de door Kim Jong-un
+           <span class="info_text" onclick="opending(1)"> opgelegde gedachtegang</span>.</h3>
+      </div>
+    </section>
+
+    <section id="third" class="section-class-name next_screen">
+      <div class="text_container" id="pag1_2">
+        <h3>Zij die zich niet houden aan Kim Jong-un’s <br>
+          beleid kunnen terecht komen in grote strafkampen. </h3>
+      </div>
+    </section>
+
+    <section id="four" class="section-class-name next_screen">
+      <span id="getallen"></span>
+      <div class="text_container" id="pag1_3">
+
+        <h3>Politieke gevangenen die leven in hongersnood <br>en slechte omstandigheden volgens de VN. </h3>
+      </div>
+    </section>
+
+    <section id="five" class="section-class-name next_screen">
+      <img class="play-button" onclick="opending(3)" src="../img/play_button.png" height="100" width="100" alt="playbutton"/>
+      <div class="text_container" id="pag1_4">
+        <h3>Noord Korea ontkent het bestaan van <br> strafkampen volkomen.
+          De locaties zijn alleen te fotograferen  vanuit een sateliet. </h3>
+      </div>
+    </section>
+
+    <!-- HOOFDSTUK 2- -->
+    <!--  -->
+
+    <section class="section-class-name" id="hst2_1">
+
+      <div class="title_container">
+        <h1>Weeshuis</h1>
+      </div>
+    </section>
+
+    <section id="hst2_2" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag2_1">
+        <h3>In de kleuterschool van het Wonsan weeshuis <br>
+          wordt het militaire
+          beleid in de hoofdjes van 5- en 6 jarige gestampt.</h3>
+      </div>
+    </section>
+
+    <section id="hst2_3" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag2_2">
+        <h3>De kinderen oefenen een voorstelling die ze voordragen
+          aan hun grote leider. De meisjes huilen zelfs,
+          omdat ze zo trots zijn op hun grote leider.</h3>
+      </div>
+    </section>
+
+    <section id="hst2_4" class="section-class-name next_screen">
+
+      <div class="text_container" id="quizje">
+        <h3> Hoeveel procent van dit weeshuis zal later militair worden? </h3>
+        <ul id = "quiz_pag9">
+          <li class="quiz_fout">25 %</li>
+          <li class="quiz_fout">60 %</li>
+          <li class="quiz_goed">100 %</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="hst2_5" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag2_4">
+        <h3>Alle kinderen zullen moeten werken in de
+          KPA (koreaanse volksleger).
+          Ongeveer 1 op de 25 inwoners zit in de KPA.</h3>
+      </div>
+    </section>
+
+    <!-- HOOFDSTUK 3-  -->
+    <!--  -->
+
+    <section class="section-class-name" id="hst3_1">
+
+      <div class="title_container">
+        <h1>Hongersnood</h1>
+      </div>
+    </section>
+
+    <section id="hst3_2" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag3_2">
+        <h3>Het grote doel van communisme is dat er altijd
+          genoeg werk en voedsel is voor de bevolking. <br>
+          Dit lukt in de praktijk niet altijd.</h3>
+      </div>
+    </section>
+
+    <section id="hst3_3" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag3_3">
+        <h3>Voedsel is altijd schaars geweest in het land.
+          Er leven miljoenen mensen in armoede die geen eten
+          kunnen krijgen van de overheid.</h3>
+      </div>
+    </section>
+
+    <section id="hst3_4" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag3_4">
+        <h3>Sinds 2010 is er nog eens een tegenslag.
+          Door enorme droogte is de voedselproductie enorm gedaald. </h3>
+      </div>
+    </section>
+
+    <section id="hst3_5" class="section-class-name next_screen">
+      <div id="drievan5container">
+        <span class="drievan5"> 3 </span> <span id="slash"> / </span>
+        <span class="drievan5"> 5 </span>
+      </div>
+
+      <div class="text_container" id="pag3_5">
+
+        <h3>3 op de 5 Noord Koreaanse kinderen onder de 5 jaar
+          worden belemmerd in hun groei door de aanhoudende hongersnood.</h3>
+      </div>
+    </section>
+
+    <section id="hst3_6" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag3_6">
+        <h3>De overheid probeert de tekorten op te vangen door
+          tenminste <span class="info_text" onclick="opending(2)">1 grote kas</span> neer te zetten per regio en zo de
+          gehele regio van voedsel te kunnen voorzien.</h3>
+      </div>
+    </section>
+
+    <section id="hst3_7" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag3_7">
+        <h3>In de jaren 90 was er ook al een substantiële hongersnood.
+          Hieraan stierven naar schatting
+          meer dan een miljoen Noord Koreanen.</h3>
+      </div>
+    </section>
+
+    <section id="hst3_8" class="section-class-name next_screen">
+
+      <div class="text_container" id="pag3_8">
+        <h3>De Verenigde Naties stuurt al jaren voedselhulp naar
+          scholen en ziekenhuizen, maar heeft ook niet genoeg
+           voorraad om de gehele bevolking van 25 miljoen
+           mensen te kunnen voorzien. </h3>
+      </div>
+
+    </section>
+
+
+      <div id="pijltje">
+        <img src="img/pijl.png" alt="pijl">
+      </div>
+
+      <div id="gone1" class="gone">
+        <div class="paddingk">
+          <div class="titelContatin">
+            <p class ="title" onclick="closeOpending()">Werk kampen</p>
+          </div>
+          <p class ="detext">
+            In North Korea, there is no escaping the Kims. Every home, office, classroom and even train car features portraits of the first two leaders,
+             and the pictures must be cleaned with a special cloth every day.
+North Koreans wear pins, usually of Kim Il Sung but sometimes of both Kim One and Kim Two, on their chests, on the left to be close to their hearts.
+Television sets and radios are fixed to state-run channels — being caught with an unfixed device, or worse, foreign DVDs, is a severe offense that often leads to time at a labor camp — and for all but a handful of the elite, there is no Internet. Although an increasing amount of information seeps across the border from China, the state continues to have almost total control over the flow information.
+After years of futile efforts to stop North Korea from developing nuclear weapons, the international community is now focused on human rights violations there. Unprecedented attention is being given to political imprisonment and executions.
+More pervasive, but less obviously gruesome, is the way the regime brainwashes children from an early age to believe in the Kims as godlike leaders.
+This indoctrination program has two basic goals, according to a groundbreaking 372-page report published last year by a U.N. commission of inquiry: to instill utmost loyalty and commitment toward the supreme leader,
+and to instill hostility and deep hatred toward the United States, Japan and South Korea.
+The brainwashing starts in kindergarten.
+
+
+            </p>
+        </div>
+      </div>
+
+      <!--//Sectie 2-->
+      <div id="gone2" class= "gone">
+        <div class="paddingk">
+          <p class ="title" onclick="closeOpending()">Hongersnood</p>
+
+          <p class ="detext">Nieuwsuur wordt naar twee 'modelboerderijen' gebracht.
+                      Zo ver het oog strekt is het groen, of staan er kassen vol groente en fruit. "De arbeiders wonen er helemaal gratis in woningen, die ze van de leider hebben gekregen", vertelt onze gids trots. "Inclusief kleurentelevisie en kookstel." Maar dat er problemen zijn, horen we ook.
+          Vorig jaar heeft de koude winter de oogst op de fruitfarm voor het overgrote deel verwoest, terwijl het land nu de ergste droogte sinds 103 jaar kent. Dat beinvloedt de voedselproductie, vertelt een economisch expert ons, terug in de hoofdstad. "We verwachten dat de oogst voor zeker 20 procent minder is dan normaal." Bovendien is het land voor 60 procent afhankelijk van waterkracht, en liggen de waterkrachtcentrales door de droogte nu stil. Er is veel stroom-uitval, wat opnieuw een negatieve invloed op de landbouw heeft, en waar ook industrie last van heeft.
+          <br/><br/>
+          Lege enveloppen-boerderij
+          Ooit werd deze landbouwcomplexen de 'lege-enveloppenboerderijen' genoemd. Er kwam geen geld in het laatje, omdat de oogsten steeds mislukten. Deze voorbeeldboerderij werd afgelopen juni door Kim Jong-un bezocht. "De leider heeft niet gezegd hoeveel kassen hij binnen hoeveel tijd wil neerzetten, maar wel dat hij er in iedere provincie één wil", zegt boerin Pak Myong Sim.
+
+          </p>
+        </div>
+      </div>
+    <div id="gone3" class= "gone gonefilm">
+      <div class="paddingk">
+        <p class ="titleFilm" onclick="closeOpending()">Werkkampen</p>
+      </div>
+      <div class="filmcontainer">
+        <iframe class="filmpje1" src="https://www.youtube.com/embed/WbCo46dtki8?start=99" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <!--  //De gone-->
+      <div onclick="closeOpending()" id="niks223"></div>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  padding:0;
+  margin:0;
+  overflow-x: hidden;
+}
+
+@font-face{
+  font-family: Roboto;
+  src: url('font/Roboto-Regular.tff');
+}
+
+html{
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body{
+}
+
+.section-class-name{
+  height:100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.title_container{
+  width:100%;
+  position: relative;
+  top:40%;
+  text-align: center;
+
+}
+
+.title_container h1{
+  font-weight:100;
+  font-size:5vw;
+  border-bottom:0.2vw solid red;
+  display:inline-block;
+  color:white;
+  text-shadow: 0px 0px 26px rgba(0, 0, 0, 0.5);
+}
+
+/*HOOFDSTUK 1 -------------------------*/
+/**/
+#begin{
+  background-image: url("img/begin2.jpg");
+}
+#first{
+  background-image:url('img/gesch_pag1_1.jpg');
+}
+#second{
+  background-image:url('img/gesch_pag2.jpg');
+}
+#third{
+  background-image:url('img/gesch_pag3.jpg');
+}
+#four{
+  background-image:url('img/gesch_pag4.jpg');
+}
+
+#five{
+  background-image:url('img/gesch_pag5.jpg');
+}
+#six{
+  background-image:url('img/gesch_pag6.jpg');
+}
+#seven{
+  background-image:url('img/gesch_pag7.jpg');
+}
+
+/*HOOFDSTUK 2 -----------------------------*/
+/**/
+
+#hst2_1{
+  background-image:url('img/kims_pag1.jpg');
+}
+#hst2_2{
+  background-image:url('img/kims_pag2.jpg');
+}
+#hst2_3{
+  background-image:url('img/kims_pag3.jpg');
+}
+#hst2_4{
+  background-image:url('img/kims_pag4.jpg');
+}
+#hst2_5{
+  background-image:url('img/kims_pag5.jpg');
+  background-position: center bottom;
+}
+
+/*HOOFDSTUK 3-------------------*/
+/**/
+
+#hst3_1{
+  background-image:url('img/prop_pag1.jpg');
+}
+#hst3_2{
+  background-image:url('img/prop_pag2.jpg');
+}
+#hst3_3{
+  background-image:url('img/prop_pag3.jpg');
+}
+#hst3_4{
+  background-image:url('img/prop_pag4.jpg');
+}
+#hst3_5{
+  background-image:url('img/prop_pag5.jpg');
+}
+#hst3_6{
+  background-image:url('img/prop_pag6.jpg');
+}
+
+.play-button{
+  position:relative;
+  display:block;
+  top:20%;
+  left:50%;
+  transform: translateX(-50%);
+  clear:right;
+  cursor:pointer;
+}
+
+
+/*REST VAN DE PAGINA ----------------------*/
+.text_container{
+    opacity:0;
+    width:100%;
+    height: 50%;
+    text-align: left;
+    padding-left: 2.5vw;
+    position: relative;
+    top:55%;
+    line-height: 2.7vw;
+    transition: opacity 1s , top 1s;
+}
+
+.next_screen h3{
+  font-weight: 100;
+  font-size:3vw;
+  color:white;
+  width:70%;
+  padding: 5px;
+  text-shadow: 0px 0px 26px rgba(0, 0, 0, 0.5);
+  line-height: 125%;
+  z-index: 60;
+}
+
+/*#pag1_3 h3{
+  font-weight: 100;
+  font-size:3vw;
+  color:black;
+  width:70%;
+  text-shadow: 0px 0px 26px rgba(255, 255, 255, 0.5);
+  line-height: 125%;
+  z-index: 50;
+}*/
+
+.info_text{
+  border-bottom:0.2vw solid red;
+  cursor:pointer;
+}
+
+
+#pijltje{
+  width: 30vw;
+  text-align: center;
+  cursor: pointer;
+  z-index: 999;
+  position: fixed;
+  display: block;
+  bottom: 0;
+  left: 35%;
+  right: 40%;
+  transition: transform 1s;
+}
+
+@media (max-width: 480px){
+
+  .next_screen h3{
+    font-weight: 100;
+    font-size:6vw;
+    color:white;
+    width:70%;
+    padding: 5px;
+    text-shadow: 0px 0px 26px rgba(0, 0, 0, 0.5);
+    line-height: 125%;
+    z-index: 60;
+  }
+  .title_container h1{
+    font-weight:100;
+    font-size:15vw;
+    border-bottom:0.2vw solid red;
+    display:inline-block;
+    color:white;
+    text-shadow: 0px 0px 26px rgba(0, 0, 0, 0.5);
+  }
+  /*#pag1_3 h3{
+    font-weight: 100;
+    font-size:6vw;
+    color:black;
+    width:70%;
+    text-shadow: 0px 0px 26px rgba(255, 255, 255, 0.5);
+    line-height: 125%;
+    z-index: 50;
+  }*/
+  /*#getallen{
+    font-size: 10vh;
+    font-weight: 100;
+    border-bottom: red 0.2vw solid;
+    top: 20vh;
+    left: 25vw;
+    position: relative;
+  }*/
+  #quiz_pag9 li{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 2%;
+    text-align: center;
+    font-size: 5vh;
+    color: #FFF;
+    border-bottom: red 1px solid;
+    width: 25%;
+  }
+
+  #drievan5container{
+    left: 25vw;
+    top: 10vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+  }
+  .drievan5{
+    font-size: 15vh;
+    color: white;
+  }
+  #slash{
+    color: red;
+    font-size: 15vh;
+    font-weight: 100;
+  }
+}
